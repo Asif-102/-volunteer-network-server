@@ -38,7 +38,7 @@ client.connect(err => {
                     res.send(result.insertedCount > 0)
                 })
         }else{
-            res.send('uploaded failed')
+            console.log('uploaded fail')
         }
     })
 
